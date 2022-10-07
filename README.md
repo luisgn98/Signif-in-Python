@@ -5,6 +5,12 @@ La función `signif(x, n)` redondea el valor de su primer argumento `x`, al núm
 ## Nota
 El argumento `x` debe ser de tipo `int` o `float`.
 
+## Instalación
+```python
+pip install significant-figures==0.0.3
+```
+[Librería en PyPI](https://pypi.org/project/significant-figures/0.0.3/)
+
 ## Ejemplo de uso
 In[&nbsp;]:
 ```python
