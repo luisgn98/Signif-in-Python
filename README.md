@@ -7,7 +7,7 @@ El argumento `x` debe ser de tipo `int` o `float` mientras que el argumento `n` 
 
 ## Instalación
 ```python
-pip install significant-figures==0.0.3
+pip install significant-figures==0.0.4
 ```
 [Librería en PyPI](https://pypi.org/project/significant-figures/0.0.3/)
 

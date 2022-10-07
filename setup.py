@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 PACKAGE_NAME = 'significant_figures'
 AUTHOR = 'Luis García Nnomo'
 AUTHOR_EMAIL = 'luisnnomo@hotmail.com'
