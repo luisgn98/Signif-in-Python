@@ -1,0 +1,8 @@
+README.md
+setup.py
+significant_figures/__init__.py
+significant_figures/functions.py
+significant_figures.egg-info/PKG-INFO
+significant_figures.egg-info/SOURCES.txt
+significant_figures.egg-info/dependency_links.txt
+significant_figures.egg-info/top_level.txt
