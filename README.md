@@ -2,8 +2,8 @@
 Esta función te permite expresar cualquier número real con una determinada cantidad de cifras significativas de forma sencilla. Está inspirada en la función `signif` de R que realiza la misma tarea y de la cual hereda su nombre.
 
 La función `signif(x, n)` redondea el valor de su primer argumento `x`, al número de cifras significativas especificado en su segundo argumento `n`. Concretamente realiza la operación `round(x, n-int(math.floor(math.log10(abs(x))))-1)`.
-## Nota
-El argumento `x` debe ser de tipo `int` o `float`.
+
+El argumento `x` debe ser de tipo `int` o `float` mientras que el argumento `n` debe ser de tipo `int`.
 
 ## Instalación
 ```python
