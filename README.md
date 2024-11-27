@@ -21,7 +21,7 @@ signif(0.00047923, 2)
 Out[&nbsp;]:
 > 0.00048
 
-## Sobre el autor
+## About the author
 [GitHub](https://github.com/luisgn98)
 
 [LinkedIn](https://www.linkedin.com/in/luis-garc%C3%ADa-nnomo-b041b51b3/)
