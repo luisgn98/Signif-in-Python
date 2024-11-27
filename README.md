@@ -1,17 +1,17 @@
-# Función signif en Pyhton
-Esta función te permite expresar cualquier número real con una determinada cantidad de cifras significativas de forma sencilla. Está inspirada en la función `signif` de R que realiza la misma tarea y de la cual hereda su nombre.
+# Signif function in Pyhton
+This function allows you to express any real number with a specified number of significant figures easily. It is inspired by the `signif` function from R, which performs the same task and from which it inherits its name.
 
-La función `signif(x, n)` redondea el valor de su primer argumento `x`, al número de cifras significativas especificado en su segundo argumento `n`. Concretamente realiza la operación `round(x, n-int(math.floor(math.log10(abs(x))))-1)`.
+The function `signif(x, n)` rounds the value of its first argument, `x`, to the number of significant figures specified in its second argument, `n`. Specifically, it performs the operation `round(x, n-int(math.floor(math.log10(abs(x))))-1)`.
 
-El argumento `x` debe ser de tipo `int` o `float` mientras que el argumento `n` debe ser de tipo `int`.
+The argument `x` must be of type `int` or `float`, while the argument `n` must be of type `int`.
 
-## Instalación
+## Installation
 ```python
 pip install significant-figures==0.0.4
 ```
-[Librería en PyPI](https://pypi.org/project/significant-figures/0.0.3/)
+[Library on PyPI](https://pypi.org/project/significant-figures/0.0.3/)
 
-## Ejemplo de uso
+## Usage example
 In[&nbsp;]:
 ```python
 from significant_figures import signif
